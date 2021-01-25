@@ -13,6 +13,11 @@
 		0007F7FA25BE8C8B00D46800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0007F7F925BE8C8B00D46800 /* Assets.xcassets */; };
 		0007F7FD25BE8C8B00D46800 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0007F7FC25BE8C8B00D46800 /* Preview Assets.xcassets */; };
 		0007F80025BE8C8B00D46800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0007F7FE25BE8C8B00D46800 /* LaunchScreen.storyboard */; };
+		0007F81025BE948000D46800 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007F80F25BE948000D46800 /* TabBar.swift */; };
+		0007F81325BEA08000D46800 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007F81225BEA08000D46800 /* TabButton.swift */; };
+		0007F81625BEA8F500D46800 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007F81525BEA8F500D46800 /* Home.swift */; };
+		0007F81925BEB67D00D46800 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007F81825BEB67D00D46800 /* SwiftUIView.swift */; };
+		0007F81C25BEB90000D46800 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007F81B25BEB90000D46800 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		0007F7FC25BE8C8B00D46800 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0007F7FF25BE8C8B00D46800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0007F80125BE8C8B00D46800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0007F80F25BE948000D46800 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		0007F81225BEA08000D46800 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		0007F81525BEA8F500D46800 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0007F81825BEB67D00D46800 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		0007F81B25BEB90000D46800 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 		0007F7F225BE8C8600D46800 /* Furnitures */ = {
 			isa = PBXGroup;
 			children = (
+				0007F80925BE91BD00D46800 /* Model */,
+				0007F80825BE91B600D46800 /* View */,
 				0007F7F325BE8C8600D46800 /* AppDelegate.swift */,
 				0007F7F525BE8C8600D46800 /* SceneDelegate.swift */,
 				0007F7F725BE8C8600D46800 /* ContentView.swift */,
@@ -73,6 +85,25 @@
 				0007F7FC25BE8C8B00D46800 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0007F80825BE91B600D46800 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0007F80F25BE948000D46800 /* TabBar.swift */,
+				0007F81225BEA08000D46800 /* TabButton.swift */,
+				0007F81525BEA8F500D46800 /* Home.swift */,
+				0007F81B25BEB90000D46800 /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0007F80925BE91BD00D46800 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0007F81825BEB67D00D46800 /* SwiftUIView.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +177,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0007F7F425BE8C8600D46800 /* AppDelegate.swift in Sources */,
+				0007F81925BEB67D00D46800 /* SwiftUIView.swift in Sources */,
 				0007F7F625BE8C8600D46800 /* SceneDelegate.swift in Sources */,
 				0007F7F825BE8C8600D46800 /* ContentView.swift in Sources */,
+				0007F81325BEA08000D46800 /* TabButton.swift in Sources */,
+				0007F81625BEA8F500D46800 /* Home.swift in Sources */,
+				0007F81C25BEB90000D46800 /* CardView.swift in Sources */,
+				0007F81025BE948000D46800 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
